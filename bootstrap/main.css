@@ -1,6 +1,6 @@
 
   body{
-      background-color: #f0f2f5;
+      background-color: #737373;
       font-family: "Nunito Sans";
       }
   .login-form{
@@ -55,5 +55,25 @@
           box-shadow: none;
         }
       }
+      .footer__container {
+        background-color: white;
+        height: auto;
+    }
+    
+    .top__footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none
+    }
+    
+    .top__footer li {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    
+    .top__footer a {
+        text-decoration: none;
+    }
  
      
